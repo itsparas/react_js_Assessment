@@ -1,0 +1,67 @@
+.product {
+  background-color: rgb(66, 211, 166);
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.product button {
+  padding: 6px 20px;
+  background: red;
+  border: 1px solid red;
+  color: whitesmoke;
+  border-radius: 2px;
+}
+.product button:hover {
+  padding: 6px 20px;
+  background: rgb(160, 4, 4);
+  border: 1px solid rgb(160, 4, 4);
+  color: whitesmoke;
+  border-radius: 2px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.productArray {
+  margin-top: 100px;
+  width: 60%;
+
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.products > div > div {
+  padding: 10px 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(66, 211, 166);
+}
+.products > div > div > img {
+  width: 100px;
+  height: 100px;
+}
+.products > div > div > p {
+  margin: 3px 10px;
+}
+.products > div > div > button {
+  padding: 5px 10px;
+  width: max-content;
+  background-color: rgb(66, 211, 166);
+  border: none;
+  color: whitesmoke;
+}
+.products > div > div > button:hover {
+  padding: 5px 10px;
+  width: max-content;
+  background-color: rgb(54, 238, 180);
+  border: none;
+  color: whitesmoke;
+}
